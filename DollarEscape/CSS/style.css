@@ -1,0 +1,455 @@
+/* *{
+    background-color: black;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/* ul li{
+  font-family: 'Press Start 2P', cursive;
+  font-size: x-small;
+
+} */
+p{
+  font-family: 'Annie Use Your Telescope', cursive;
+  /* font-size: 12px; */
+  font-weight: 900;
+
+}h1,
+h2,h3,h4{
+  font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: 900;
+  }
+  
+.herob_p{
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
+}
+.navbar-brand img {
+    width: 100px;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color:purple;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 0-5em;
+    text-shadow: 0 0 1px rgba(24, 21, 211, 0.3), 0 0 1px rgba(255,255,255,.3);
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  #main{
+    background-color: white ;
+    background-size: cover;
+    height: 100vh;
+  }
+  .card {
+    --background: linear-gradient(to left, rgb(0, 209, 181) 0%, rgb(131, 131, 131) 100%);
+    width: 275px;
+    height: 280px;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #615d54;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: #7a899b;
+    background: var(--background);
+    transition: opacity .5s;
+   }
+   
+   .card-info {
+    /* padding: 10px 0px 0px 0px; */
+    --color: #181818;
+    background: var(--color);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+    font-family: 'Annie Use Your Telescope', cursive;
+   }
+/*    
+   .card .title {
+    font-weight: bold;
+    letter-spacing: .1em;
+   } */
+   
+   /*Hover*/
+   /* .card:hover::after {
+    opacity: 0;
+   } */
+   
+   /* .card:hover .card-info {
+    color: #f7ba2b;
+    transition: color 1s;
+   } */
+   #feautres{
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,55,44,1) 100%, rgba(0,212,255,1) 100%); */
+background-color:white;
+
+
+        opacity: 1
+       
+   }
+   .features_h2{
+    color: purple;
+    text-shadow: 0 0 1px rgba(255,255,255,.3), 0 0 1px rgba(255,255,255,.3);
+    font-size: 30px;
+   }
+   .tax{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   }
+   #TOKENOMICS{
+    /* background-color: #060606; */
+    background-color: white;
+   
+    
+   }
+   .design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    padding: 100px 0;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background: #1f1f1f;
+    -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+            box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    border-radius: 5px;
+    color: white;
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  
+  .timeline-component {
+    margin: 0px 20px 20px 20px;
+  }
+  #Buy{
+    /* background-color: #1F1F1F; */
+    
+        background-size: 3em 3em;
+        background-color: white;
+        opacity: 1;
+  }
+  .card-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .card_second {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: #1F1F1F;
+  }
+  
+  .card_second .front-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card_second .front-content p {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 1;
+    background: linear-gradient(-45deg, rgb(209, 209, 209) 0%, rgb(36, 35, 35) 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+
+  }
+  
+  .card_second .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    gap: 10px;
+    background: linear-gradient(-45deg, rgb(209, 209, 209) 0%, rgb(36, 35, 35) 100%  );
+    color: #e8e8e8;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translateY(96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  
+  .card_second .content .heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .card_second:hover .content {
+    transform: translateY(0);
+  }
+  
+  .card_second:hover .front-content {
+    transform: translateY(-30%);
+  }
+  
+  .card_second:hover .front-content p {
+    opacity: 0;
+  }
+  #Roadmap{
+    background-color:white;
+
+  }
+  #partners{
+   
+    
+    background-size: 3em 3em;
+    background-color:white;
+    opacity: 1;
+  }
+  
+  #Contact{
+    background: white;
+
+        
+        background-size: 100% 100%;
+        /* height: 100vh; */  
+  }
+  .img1{
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(172, 164, 165, 0.789), inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 0px 0px 5px rgba(249, 4, 16, 0.789), inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  .img2{
+    -webkit-box-shadow: 0px 0px 0px 5px rgb(116, 116, 131), inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 5px blue, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  .btn a{
+    font-family: 'Quantico', sans-serif;
+  }
+  .btn {
+    --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+    --border-width: .125em;
+    --curve-size: .5em;
+    --blur: 30px;
+    --bg: #080312;
+    --color: #afffff;
+    color: var(--color);
+      /* use position: relative; so that BG is only for .btn */
+    position: relative;
+    isolation: isolate;
+    display: inline-grid;
+    place-content: center;
+    padding: .5em 1.5em;
+    font-size: 17px;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    clip-path: polygon(
+              /* Top-left */
+              0% var(--curve-size),
+  
+              var(--curve-size) 0,
+              /* top-right */
+              100% 0,
+              100% calc(100% - var(--curve-size)),
+  
+              /* bottom-right 1 */
+              calc(100% - var(--curve-size)) 100%,
+              /* bottom-right 2 */
+              0 100%);
+    transition: color 250ms;
+  }
+  
+  .btn::after,
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  
+  .btn::before {
+    background: var(--border-color);
+    background-size: 300% 300%;
+    animation: move-bg7234 5s ease infinite;
+    z-index: -2;
+  }
+  
+  @keyframes move-bg7234 {
+    0% {
+      background-position: 31% 0%
+    }
+  
+    50% {
+      background-position: 70% 100%
+    }
+  
+    100% {
+      background-position: 31% 0%
+    }
+  }
+  
+  .btn::after {
+    background: var(--bg);
+    z-index: -1;
+    clip-path: polygon(
+              /* Top-left */
+              var(--border-width) 
+              calc(var(--curve-size) + var(--border-width) * .5),
+  
+              calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+              /* top-right */
+              calc(100% - var(--border-width)) 
+              var(--border-width),
+  
+              calc(100% - var(--border-width)) 
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+              /* bottom-right 1 */
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+              /* bottom-right 2 */
+              var(--border-width) calc(100% - var(--border-width)));
+    transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+    clip-path: polygon(
+                  /* Top-left */
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      
+                  calc(100% - var(--border-width))
+  
+                  var(--border-width),
+      
+                  /* top-right */
+                  calc(100% - var(--border-width))
+  
+                   var(--border-width),
+      
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+      
+                  /* bottom-right 1 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                  calc(100% - var(--border-width)),
+  
+                  /* bottom-right 2 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                  calc(100% - var(--border-width)));
+    transition: 200ms;
+  }
+  #copyright{
+    background-color: blue;
+  }
+  
+  .btn a :where(:hover, :focus) {
+    color: #fff;
+  }
+  @media screen and (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 3px 1fr;
+    }
+    .timeline-middle {
+      position: relative;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      width: 3px;
+      height: 100%;
+    }
+    .main-middle {
+      opacity: 0;
+    }
+    .timeline-circle {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  }
+  @media (max-width:768px){
+    .navbar-brand img {
+        width: 100px;
+      }
+      .navbar-brand {
+        margin-right: 0;
+        padding: 0 16px;
+      }
+  }
+@media screen and (min-width: 992px){
+    .nav-item{
+        padding: 0px 40px;
+    }
+    #main{
+        background-size: 100% 100%;
+    }
+    .herob_p{
+      padding: 10px 0px 0px 0px;
+      font-size: 25px;
+    }
+  }
